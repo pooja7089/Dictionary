@@ -1,84 +1,27 @@
-# Dictionary
-Oxford dictionary Application using angular
+# Oxford
 
-#Project Name: Oxford Dictionary
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
 
-What had I coded:
+## Development server
 
-#Component:
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Arrow Function in same way structured in all component and services.
+## Code scaffolding
 
-A.	Custom.component .ts:  In this Typescript file, I have written the code for search page of words also mentioned the API Key.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-i.	Search page with option to search a particular word in the dictionary.
+## Build
 
-ii.	On clicking search or on clicking the word on the autocomplete list, a full-page view.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-iii.	Full page view of the word.
+## Running unit tests
 
-iv.	Displayed all the information about that words.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-B.	Custom.component.html:  In this Html file: I have written the code for search the page for words.
+## Running end-to-end tests
 
-i.	Oxford dictionary API ID is mentioned in this file.
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-ii.	Angular Bare Bones is loaded for Personal dictionary file.
+## Further help
 
-iii.	Personal   Dictionary   style is used in file with background-image.
-
-C.	Custom. Services.ts:  In this Typescript file, I have written the code for Search Service.
-
-i.	Passed Parameter in service function.
-
-ii.	URL is crud operation.
-
-iii.	CRUD (create, read, update, delete).
-
-iv.	Using angular Databinding.
-
-v.	HTTP object for Ajax calls along with RSJS Observables.
-
-vi.	Interface and modules is used.
-
-D.	Custom app. Module .ts:  In this Typescript file: I have written the code for Http search application.
-
-i.	Declare the App Component.
-
-ii.	Declare the possible routes in application
-
-iii.	Provides the App Component in bootstrap.
-
-*JSON:
-
-1)Custom app.
-
-2)Frequency.
-
-3)Language.
-
-4)Sentences.
-
-5)Source search.
-
-6)Thesaurus.
-
-7)config.
-
-8)word id.
-
-9)package.
-
-#HTML:
-
-1)Dictionary.html:  In this Html file: I have written the code for personal dictionary.
-
-2)Module angular bare-bone is loaded.
-
-3)App CSS.
-
-I have followed Oxford Dictionary Documentation, coded about it all. 
-
-Link project is uploaded in the GitHub:
-
-Link of the project running on AWS:
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
